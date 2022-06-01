@@ -11,7 +11,7 @@
 
 I graduated from GeekBrains University at the faculty of frontend.
 
-** ### Skills: **
+### Skills:
 
 * HTML
 * CSS
@@ -66,7 +66,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 ### Work experience:
 
-1. 3 Web-приложения на Vue 3
+1. Web-приложения на Vue 3
 * https://github.com/Tararatel/vue3-notify ( Демо-версия проекта - https://clck.ru/gwExy )
 * https://github.com/Tararatel/vue3-clash-of-clans ( Демо-версия проекта - https://clck.ru/gwDgH )
 * https://github.com/Tararatel/vue3_ts-star_wars ( Демо-версия проекта - https://clck.ru/gwEtb )
@@ -78,5 +78,5 @@ export const getStaticPaths: GetStaticPaths = async () => {
 * React + Next.js - с нуля. TypeScript, Hooks, SSR и CSS Grid - https://learn.purpleschool.ru/
 * NestJS - с нуля, современный backend на TypeScript и Node JS - https://www.udemy.com/
 
-## Language:
+### Language:
 English level - Intermediate
