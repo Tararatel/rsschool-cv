@@ -26,9 +26,6 @@ I graduated from GeekBrains University at the faculty of frontend.
 ### Code example:
 
 ` ` `
-export const Button = ({ children, arrow = 'none', appearance, className, ...props }: ButtonProps): JSX.Element => {
-	const scale = useMotionValue(1);
-
 	return (
 		<motion.button
 			whileHover={{ scale: 1.05 }}
@@ -51,7 +48,6 @@ export const Button = ({ children, arrow = 'none', appearance, className, ...pro
 			)}
 		</motion.button>
 	);
-};
 ` ` `
 
 ### Work experience:
