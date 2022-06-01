@@ -1,5 +1,4 @@
 # Sidorov Aleksey
-— — —
 
 ### Contacts:
 
@@ -11,7 +10,6 @@
 ### About myself:
 
 I graduated from GeekBrains University at the faculty of frontend.
-— — —
 
 ** ### Skills: **
 
@@ -28,6 +26,7 @@ I graduated from GeekBrains University at the faculty of frontend.
 ### Code example:
 
 ` ` `
+
 function TopPage({ firstCategory, page, products }: TopPageProps): JSX.Element {
 	if (!page || !products) {
 		return <Error404 />;
@@ -62,6 +61,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 		fallback: false,
 	};
 };
+
 ` ` `
 
 ### Work experience:
