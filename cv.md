@@ -53,11 +53,11 @@ I graduated from GeekBrains University at the faculty of frontend.
 ### Work experience:
 
 1. Web-приложения на Vue 3
-* https://github.com/Tararatel/vue3-notify ( Демо-версия проекта - https://clck.ru/gwExy )
-* https://github.com/Tararatel/vue3-clash-of-clans ( Демо-версия проекта - https://clck.ru/gwDgH )
-* https://github.com/Tararatel/vue3_ts-star_wars ( Демо-версия проекта - https://clck.ru/gwEtb )
+* https://github.com/Tararatel/vue3-notify ( Demo - https://clck.ru/gwExy )
+* https://github.com/Tararatel/vue3-clash-of-clans ( Demo - https://clck.ru/gwDgH )
+* https://github.com/Tararatel/vue3_ts-star_wars ( Demo - https://clck.ru/gwEtb )
 2. Web-приложение на Next.js
-* https://github.com/Tararatel/Next.js_TS_Hooks_SSR ( Демо-версия проекта - https://clck.ru/gwD2K )
+* https://github.com/Tararatel/Next.js_TS_Hooks_SSR ( Demo - https://clck.ru/gwD2K )
 
 ### Education and courses:
 * GekkBrains University - https://gb.ru/
