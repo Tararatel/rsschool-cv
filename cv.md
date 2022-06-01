@@ -26,19 +26,31 @@ I graduated from GeekBrains University at the faculty of frontend.
 ### Code example:
 
 ` ` `
-export const getStaticPaths: GetStaticPaths = async () => {
-	let paths: string[] = [];
-	for (const m of firstLevelMenu) {
-		const { data: menu } = await axios.post<MenuItem[]>(API.topPage.find, {
-			firstCategory: m.id,
-		});
-		paths = paths.concat(menu.flatMap((s) => s.pages.map((p) => `/${m.route}/${p.alias}`)));
-	}
+export const Button = ({ children, arrow = 'none', appearance, className, ...props }: ButtonProps): JSX.Element => {
+	const scale = useMotionValue(1);
 
-	return {
-		paths,
-		fallback: false,
-	};
+	return (
+		<motion.button
+			whileHover={{ scale: 1.05 }}
+			className={cn(styles.button, className, {
+				[styles.primary]: appearance == 'primary',
+				[styles.ghost]: appearance == 'ghost',
+			})}
+			style={{ scale }}
+			{...props}
+		>
+			{children}
+			{arrow !== 'none' && (
+				<span
+					className={cn(styles.arrow, {
+						[styles.down]: arrow == 'down',
+					})}
+				>
+					<ArrowIcon />
+				</span>
+			)}
+		</motion.button>
+	);
 };
 ` ` `
 
