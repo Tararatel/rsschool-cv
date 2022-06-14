@@ -1,2 +1,1 @@
-# rsschool-cv
-RS School CV
+https://tararatel.github.io/rsschool-cv/
